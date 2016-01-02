@@ -9,7 +9,7 @@
 
 using namespace std;
 
-char options[] = {'1','2','3','4','5','6','7','8','9','+','-','*','+','-','*'};
+char options[] = { '1','2','3','4','5','6','7','8','9','+','-','*','+','-','*' };
 
 struct Chromosome {
 	Chromosome(const vector<int>& indices, double fitness) : indices(indices), fitness(fitness) {}
